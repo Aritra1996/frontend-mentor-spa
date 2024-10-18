@@ -1,10 +1,10 @@
 # Live site
 
-The repo is deployed in netlify [`live-site`](https://aritraspas.netlify.app/).
+The repo is deployed in netlify [`live-site`](https://aritraspas.netlify.app/){:target="_blank" rel="noopener"}.
 
 # create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte){:target="_blank" rel="noopener"}.
 
 ## Creating a project
 
@@ -39,4 +39,4 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters){:target="_blank" rel="noopener"} for your target environment.
