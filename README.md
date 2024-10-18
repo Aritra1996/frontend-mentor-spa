@@ -1,6 +1,6 @@
 # Live site
 
-The repo is deployed in netlify [`live-site`](https://aritraspas.netlify.app/).
+The repo is deployed in netlify [`aritraspas`](https://aritraspas.netlify.app/).
 
 # create-svelte
 
