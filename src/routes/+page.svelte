@@ -1,5 +1,5 @@
 <script>
-	import Counter from './Counter.svelte';
+	import { page } from '$app/stores';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -18,14 +18,17 @@
 			</picture>
 		</span>
 
-		to my new<br />SvelteKit app
+		to my new<br />SvelteKit apps
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+	<ol>
+		<li aria-current={$page.url.pathname === '/counter' ? 'page' : undefined}>
+			<a href="/counter">Counter</a>
+		</li>
+		<li aria-current={$page.url.pathname === '/faq accordion' ? 'page' : undefined}>
+			<a href="/faq-accordion">FAQ Accordion</a>
+		</li>
+	</ol>
 </section>
 
 <style>
@@ -55,5 +58,16 @@
 		height: 100%;
 		top: 0;
 		display: block;
+	}
+
+	ol {
+		position: relative;
+		padding: 0;
+		margin: 0;
+		height: 3em;
+		justify-content: center;
+		align-items: center;
+		background: var(--background);
+		background-size: contain;
 	}
 </style>
