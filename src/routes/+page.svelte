@@ -6,7 +6,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Svelte spa apps" />
 </svelte:head>
 
 <section>
@@ -18,7 +18,7 @@
 			</picture>
 		</span>
 
-		to my new<br />SvelteKit apps
+		to my<br />SvelteKit single page apps
 	</h1>
 
 	<ol>
